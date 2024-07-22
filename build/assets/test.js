@@ -1,2 +1,0 @@
-//# sourceMappingURL=test.js.map
-var _mathUtilsjses6=require("./mathUtils.js.es6"),process=process||{env:{NODE_ENV:"development"}},num1=5,num2=3;console.log("The sum of ".concat(num1," and ").concat(num2," is: ").concat((0,_mathUtilsjses6.add)(num1,num2)));console.log("The difference between ".concat(num1," and ").concat(num2," is: ").concat((0,_mathUtilsjses6.subtract)(num1,num2)));
