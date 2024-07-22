@@ -89,6 +89,9 @@ jar {
 
 assets {
 	packagePlugin = false //leave this false for plugins
+    configOptions = [
+        enableES6: true
+    ]
 }
 
 
@@ -96,6 +99,8 @@ task(console, dependsOn: 'classes', type: JavaExec) {
 	main = 'groovy.ui.Console'
 	classpath = sourceSets.main.compileClasspath + sourceSets.main.runtimeClasspath
 }
+
+
 
 test {
 	testLogging {
