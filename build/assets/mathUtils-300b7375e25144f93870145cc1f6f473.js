@@ -1,2 +1,0 @@
-//# sourceMappingURL=mathUtils.js.map
-function _export(b,a){for(var c in a)Object.defineProperty(b,c,{enumerable:!0,get:a[c]})}_export(exports,{add:function(){return add},subtract:function(){return subtract}});var process=process||{env:{NODE_ENV:"development"}};function add(b,a){return b+a}function subtract(b,a){return b-a};
